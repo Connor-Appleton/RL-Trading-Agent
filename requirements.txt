@@ -1,0 +1,11 @@
+stable-baselines3
+gymnasium
+torch
+transformers
+yfinance
+alpaca-py
+finnhub-python
+pandas
+numpy
+finnhub-python
+schedule
