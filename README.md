@@ -6,7 +6,7 @@ A reinforcement learning stock trading agent built from scratch using Proximal P
 
 This project implements a complete end-to-end ML trading pipeline including data ingestion, model training, backtesting, and live deployment. The agent makes hourly trading decisions across AAPL, MSFT, GOOGL, AMZN, TSLA, and JPM — sizing positions based on market conditions, sentiment, and portfolio state.
 
-Built entirely on consumer hardware (ThinkPad T14 Gen 2, no GPU) using a Proxmox home lab with two Ubuntu Server VMs.
+Built entirely on consumer hardware (Dell Optiplex 3046 Micro, no GPU) using a Proxmox home lab with two Ubuntu Server VMs.
 
 ## Key Features
 
