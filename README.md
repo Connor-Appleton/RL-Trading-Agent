@@ -96,9 +96,9 @@ Agent beats buy-and-hold on 5/7 stocks in a bear market environment.
 - Trade decisions logged hourly to CSV for analysis and future retraining
 
 ## Stack
-Python 3.1
+Python 3.10
 stable-baselines3
-gymnaisum
+gymnasium
 torch
 transformers (ProsusAI/finbert)
 yfinance
