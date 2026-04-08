@@ -95,6 +95,12 @@ Agent beats buy-and-hold on 5/7 stocks in a bear market environment.
 - Position sizing model training in progress — multi-ticker episode architecture
 - Trade decisions logged hourly to CSV for analysis and future retraining
 
+- ## Live Paper Trading Results
+- Deployed April 7, 2026
+- 2-day return: +$715 (+0.7%) in a volatile bear market
+- Agent demonstrates sentiment-driven entry/exit behavior
+- Excessive churn identified — position sizing model in training to address
+
 ## Stack
 Python 3.10
 stable-baselines3
