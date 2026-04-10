@@ -95,13 +95,27 @@ Agent beats buy-and-hold on 5/7 stocks in a bear market environment.
 - Position sizing model training in progress — multi-ticker episode architecture
 - Trade decisions logged hourly to CSV for analysis and future retraining
 
-- ## Live Paper Trading Results
-- Deployed April 7, 2026
-- 2-day return: +$715 (+0.7%) in a volatile bear market
-- Agent demonstrates sentiment-driven entry/exit behavior
-- Excessive churn identified — position sizing model in training to address
+## Live Paper Trading Results
+**Model:** Binary buy/sell | 35M timesteps | Deployed April 7, 2026
+**Account:** Alpaca paper trading | Starting balance: $100,000
+
+| Metric | Value |
+|--------|-------|
+| Days Live | 3 |
+| Current Value | $100,861 |
+| Total Return | +0.86% |
+| Market Return (SPY) | ~-3% same period |
+
+**Observed Behavior:** Agent developed intraday strategy — cautious at open, 
+mid-day re-entry on improving sentiment, exits before close. Beating 
+buy-and-hold in current bear market environment.
+
+**In Development:** Position sizing model (15M steps, training) — reduces 
+churn, enables fractional allocation.
 
 ## Stack
+
+```
 Python 3.10
 stable-baselines3
 gymnasium
@@ -111,6 +125,7 @@ yfinance
 alpaca-py
 finnhub-python
 pandas/numpy
+```
 
 ## What I Learned
 
